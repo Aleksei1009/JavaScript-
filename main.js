@@ -1,9 +1,9 @@
 'use strict';
 const products = [
-    {id: 1, title: 'Notebook', price: 1000, img: "../img/Notebook.jpg"},
-    {id: 2, title: 'Mouse', price: 100, img: "../img/Mouse.jpg"},
-    {id: 3, title: 'Keyboard', price: 250, img: "../img/Keyboard.jpg"},
-    {id: 4, title: 'Gamepad', price: 150, img: "../img/Gamepad.jpg"},
+    {id: 1, title: 'Notebook', price: 1000, img: "./img/Notebook.jpg"},
+    {id: 2, title: 'Mouse', price: 100, img: "./img/Mouse.jpg"},
+    {id: 3, title: 'Keyboard', price: 250, img: "./img/Keyboard.jpg"},
+    {id: 4, title: 'Gamepad', price: 150, img: "./img/Gamepad.jpg"},
 ];
 
 const renderProduct = (title, price, img) => {
